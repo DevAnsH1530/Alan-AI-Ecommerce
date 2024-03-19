@@ -1,6 +1,6 @@
 const formatter = new Intl.NumberFormat(undefined, {
   style: "currency",
-  currency: "USD"
+  currency: "INR" //Indian Rupees
 })
 
 export default function formatCurrency(amount) {
